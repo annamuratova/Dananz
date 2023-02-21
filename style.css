@@ -156,7 +156,7 @@ hr {
     align-items: center;
 }
 
-.card .card-left{
+.card .card-left {
     position: relative;
 }
 
@@ -194,6 +194,58 @@ hr {
 
 .small-card p {
     margin: 0;
+}
+
+.service {
+    font-family: "Poppins";
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.service .servic-card {
+    width: 60%;
+    padding-right: 45px;
+    background-color: #fff;
+}
+
+.servic-card h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.servic-card p {
+    max-width: 471px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+.servic-card .item{
+    margin: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.servic-card .item span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.service .service-img {
+    width: 85%;
+    /* margin-left: auto; */
+     position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: -1;
+}
+
+.service-img img {
+    width: 100%;
 }
 
 main {
@@ -332,6 +384,11 @@ footer {
     padding-top: 15px;
     display: flex;
     flex-direction: column;
+    align-items: end;
+}
+form div{
+    text-align: right;
+    margin-top: 15px;
 }
 
 .f-right label {
@@ -339,17 +396,21 @@ footer {
     font-size: 18px;
     line-height: 160%;
 }
+.f-right label span {
+    vertical-align: middle;
+    font-size: 40px;
+}
 
 .f-right form {
     display: flex;
     flex-direction: column;
 }
 
-.f-right input:nth-child(2) {
+.f-right input {
     border: none;
     outline: none;
     border-bottom: 1px solid #141414;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .f-right .icons {
